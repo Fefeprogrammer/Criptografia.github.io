@@ -1,0 +1,38 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Decoder</title>
+           <!-- <script type="text/javascript">
+                function encriptar() {
+                    var texto = document.getElementById("texto").value;
+                    var texto_codificado = btoa(texto);
+                    
+                    document.getElementById("resultado").innerHTML = texto_codificado;
+                }
+                
+                function desc() {
+                    var texto = document.getElementById("texto").value;
+                    var texto_decodificado = window.atob(texto);
+                    
+                    document.getElementById("resultado").innerHTML = texto_decodificado;
+                }
+            </script> -->    
+        </head>
+        <body>
+            <label for="texto">Insira o Texto:</label>
+            <textarea id="texto" rows="7" cols="200"></textarea>
+            <br />
+            <br />
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desc()">Desencriptar</button>
+            
+            <br />
+            <br />
+            <p id="resultado"></p>
+
+            <script type="text/javascript" src="js/script.js"></script>
+        </body>    
+    </html>    
+
+<!-- Decodificador de Criptografia Base-64 -->
